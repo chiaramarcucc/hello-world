@@ -6,12 +6,13 @@
     <title>Ciao!</title>
 </head>
 <body>
-    <h1>Ciao, benvenuto nel mio sito!</h1>
-    <p>Questa è la pagina principale del mio sito.</p>
+    <h1>Ciao, benvenuto!</h1>
+    <p>Prima o poi capirò come creare un vero sito e sistemerò questa pagina.</p>
         <main>
         <section id="stats">
             <h2>Statistiche</h2>
             <!-- Qui puoi inserire le statistiche -->
+            <a href="https://statistics.worldcubeassociation.org/database-query?sqlQuery=SELECT+personId%2C+personName%2C+sum%28if%28pos%3D1%2C1%2C0%29%29+Ori%2C+sum%28if%28pos%3D2%2C1%2C0%29%29+Argenti%2C+sum%28if%28pos%3D3%2C1%2C0%29%29+Bronzi%0AFROM+Results+r+INNER+JOIN+Competitions+c+ON+c.id%3Dr.competitionid%0AWHERE+pos%3C4+AND+r.countryid%3D%27Italy%27+and+roundtypeid+in+%28%27c%27%2C%27f%27%29+and+best%3E0+and+year%28c.start_date%29%3D%272024%27%0AGROUP+BY+personid%0AORDER+BY+Ori+desc%2C+Argenti+desc%2C+Bronzi+desc"> medagliere italiano 2024 </a>
         </section>
     </main>
     <footer>
